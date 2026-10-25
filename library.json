@@ -1,0 +1,110 @@
+{
+ "schemaVersion": 1,
+ "note": "Biblioteca de la app: secciones de inicio, libros, estado (available / comingSoon / hidden), portadas y fichas de Amazon. Se actualiza sin recompilar publicando library.json en el servidor de contenido (docs/CONTENT_OPERATIONS.md). Nunca concede acceso de pago.",
+ "seriesUrl": "https://www.amazon.es/dp/B0HNMR614S?binding=paperback&ref=dbs_dp_rwt_sb_pc_tpbk",
+ "shelves": [
+  {
+   "id": "colorear",
+   "title": "Pinta y colorea",
+   "subtitle": "Elige un mundo y pinta como más te guste.",
+   "books": [
+    {
+     "id": "dinosaurios",
+     "kind": "coloring",
+     "world": "dinosaurios",
+     "name": "Dinosaurios",
+     "title": "Ágata descubre los dinosaurios",
+     "status": "available",
+     "cover": {
+      "asset": "assets/covers/dinosaurios.jpg"
+     },
+     "amazonUrl": "https://www.amazon.es/gp/product/B0HNM8JPPY?ref_=dbs_m_mng_rwt_calw_tpbk_0&storeType=ebooks"
+    },
+    {
+     "id": "dragones",
+     "kind": "coloring",
+     "world": "dragones",
+     "name": "Dragones",
+     "title": "Ágata y el reino de los dragones",
+     "status": "available",
+     "cover": {
+      "asset": "assets/covers/dragones.jpg"
+     },
+     "amazonUrl": "https://www.amazon.es/gp/product/B0HNR6GV4G?ref_=dbs_m_mng_rwt_calw_tpbk_1&storeType=ebooks"
+    },
+    {
+     "id": "oceano",
+     "kind": "coloring",
+     "world": "oceano",
+     "name": "Océano",
+     "title": "Ágata descubre el océano",
+     "status": "available",
+     "cover": {
+      "asset": "assets/covers/oceano.jpg"
+     },
+     "amazonUrl": "https://www.amazon.es/gp/product/B0HNP9XQ9Y?ref_=dbs_m_mng_rwt_calw_tpbk_2&storeType=ebooks"
+    },
+    {
+     "id": "maquinas",
+     "kind": "coloring",
+     "world": "maquinas",
+     "name": "Máquinas gigantes",
+     "title": "Ágata y las máquinas gigantes",
+     "status": "available",
+     "cover": {
+      "asset": "assets/covers/maquinas.jpg"
+     }
+    }
+   ]
+  },
+  {
+   "id": "jugar",
+   "title": "Juega y aprende",
+   "subtitle": "Laberintos, sombras, ritmos y acertijos que te dicen si lo has conseguido.",
+   "books": [
+    {
+     "id": "oceano-juegos",
+     "kind": "activities",
+     "name": "Los secretos del océano",
+     "title": "Ágata y los secretos del océano",
+     "status": "available",
+     "manifest": "actividades/oceano-juegos/manifest.json",
+     "cover": {
+      "asset": "assets/covers/oceano-juegos.jpg"
+     },
+     "teaser": "48 juegos y aventuras bajo el mar"
+    },
+    {
+     "id": "dragones-juegos",
+     "kind": "activities",
+     "name": "El reino de los dragones",
+     "title": "Ágata y el reino de los dragones",
+     "status": "available",
+     "manifest": "actividades/dragones-juegos/manifest.json",
+     "cover": {
+      "asset": "assets/covers/dragones-juegos.jpg"
+     },
+     "teaser": "48 juegos y aventuras con dragones"
+    },
+    {
+     "id": "dinosaurios-juegos",
+     "kind": "activities",
+     "name": "Dinosaurios",
+     "title": "Ágata y los dinosaurios: juega y aprende",
+     "status": "comingSoon",
+     "teaser": "Nuevas misiones con dinosaurios",
+     "eta": "En preparación"
+    },
+    {
+     "id": "maquinas-juegos",
+     "kind": "activities",
+     "name": "Máquinas gigantes",
+     "title": "Ágata y las máquinas gigantes: juega y aprende",
+     "status": "comingSoon",
+     "teaser": "Grúas, excavadoras y grandes retos",
+     "eta": "En preparación"
+    }
+   ]
+  }
+ ]
+}
